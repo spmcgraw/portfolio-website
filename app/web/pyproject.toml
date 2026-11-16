@@ -1,0 +1,19 @@
+[project]
+name = "portfolio-web"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "Sean McGraw", email = "spmcgraw@gmail.com" }
+]
+requires-python = ">=3.16"
+dependencies = [
+    "flask>=3.1.3",
+]
+
+[project.scripts]
+portfolio-web = "portfolio_web:main"
+
+[build-system]
+requires = ["uv_build>=0.13.1,<0.14.0"]
+build-backend = "uv_build"

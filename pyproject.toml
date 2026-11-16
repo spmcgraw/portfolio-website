@@ -1,0 +1,10 @@
+[project]
+name = "spmcgraw-github-io"
+version = "0.1.0"
+requires-python = ">=3.16"
+dependencies = []
+
+[tool.uv.workspace]
+members = [
+    "app/*",
+]
