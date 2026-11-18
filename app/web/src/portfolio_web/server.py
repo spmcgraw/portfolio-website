@@ -12,5 +12,9 @@ def my_home():
 def html_page(page_name):
     return render_template(page_name)
 
+@app.route('/submit_form', methods=['POST', 'GET'])
+def submit_form():
+    return 'form submitted hoorray'
+
 if __name__ == "__main__":
     main()
